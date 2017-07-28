@@ -4,7 +4,7 @@
 <head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+<link rel="icon"  href="pp.jpg">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -16,7 +16,9 @@
 	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<link rel="stylesheet" type="text/css" href="bubble.css">
 	<link rel="stylesheet" href="css/animate.min.css">
-
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet"  href="wow.js">
+   <link rel="stylesheet"  href="wow.min.js">
 	<style type="text/css">
 	#smile{
 		display: none;
@@ -28,10 +30,26 @@
 .hvr-bubble-bottom:before {
 	 border-color: #475b7d transparent transparent transparent;
 }
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: #313131;
+}
+ footer {
+ 	margin-top:  50px;
+ 	bottom: 0;
+ 	width: 100%;
+
+   	height: auto;
+    display: block;
+    background: linear-gradient( midnightblue,darkslategray,#0f131d,#06070c,#0a0c12,#0a0d14,#0e111b); 
+    color: #ede6eb;
+    font-size: 13px;
+    
+}
+   
 	</style>
 </head>
 <body style="background-color: #05070f">
-   <script src="js/wow.min.js">
+   <script src="wow.min.js">
 	
         </script>
               <script>
@@ -40,20 +58,20 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #2e2e2e;" >
   <div class="container-fluid" >
     <div class="navbar-header">
-      <a class="navbar-brand hvr-float-shadow" href="#" style="color: #def3f7;" >Priya's Personal Website</a>
+      <a class="navbar-brand hvr-float-shadow" href="home.html" style="color: #def3f7;" >Priya's Personal Website</a>
     </div>
     <ul class="nav navbar-nav hvr-float-shadow" >
-      <li><a href="#">Home</a></li>
-      <li><a href="about me.html">About Me</a></li>
-      <li><a href="#">Technical Skills</a></li>
+      <li  class="active"><a href="home.html">Home</a></li>
+      <li><a href="about.html" >About Me</a></li>
+      <li><a href="technical.html">Technical Skills</a></li>
     </ul>
   </div>
 </nav>
 <div class="container">
-	<div class="jumbotron" style="background-color: #d2d5da;">
+	<div class="jumbotron" style="background-color: #dbdce1;padding-bottom:40px;">
 	 <div class="row">
 	   <div class="col-sm-4 col-mid-4 col-lg-4"></div>
-		<div class=" col-sm-4 col-mid-4 col-lg-4 hvr-bubble-bottom  animated slideOutLeft" align= "center" style=" color: #333333; font-size: 50px;" 
+		<div class=" col-sm-4 col-mid-4 col-lg-4 hvr-bubble-bottom  " align= "center" style=" color: #333333; font-size: 50px;" 
 		onmouseover="mouseover()" onmouseup="mouseout()" onmouseout="mouseout()" onmouseenter="mouseout()" onmousedown="mouseout()"><b>Priya Sharma</b>
 		 
 		   
@@ -61,10 +79,10 @@
 
 		<div class="col-sm-4 col-mid-4 col-lg-4"></div>
 	   </div>
-	     <div class="row">
+	     <div class="row" >
 	   <div class="col-sm-4 col-mid-4 col-lg-4"></div>
 		<div class=" col-sm-4 col-mid-4 col-lg-4 " align= "center" >
-		  	<img src="download.jpg" id="smile" align="center"></img>
+		  	<img src="pic (1).jpg" id="smile" align="center" style="height:300px; width:250px;"></img>
 		  
 		   
 		</div>
@@ -72,24 +90,35 @@
 		<div class="col-sm-4 col-mid-4 col-lg-4"></div>
 	   </div>
         <p style="color: #343434">
-			Hey I am Priya Sharma . I am passionate , hardworking and extrovate person. I like reading. After reading this site you will know everything about me.
+			Hii!That's me. I am passionate , hardworking and extrovate person. I like reading, watching movies ,playing outdoor games like badminton.I daily go for walk and I like cycling. After reading this site you will know everything about me.
 		</p> 
-		  <div class="row">
+		  <div class="row" style="padding-top:40px;">
 	   <div class="col-sm-4 col-mid-4 col-lg-4" align="center"  >
+	                  
+	                 <div class="hvr-sweep-to-right hvr-grow-shadow  " >
+	           	
+	                   <div class="animated zoomIn">
+
+	   	      		  	<img src="download.jpg" class="img-rounded" style="width:200px; height: 200px; padding:10px;">
+	   	      		   
+	   	      		  	</div>
+	   	      		  	  </div>
+	   	      		  	  </div>
+			   <div class="col-sm-4 col-mid-4 col-lg-4" align="center"  >
 	                 <div class="hvr-sweep-to-right hvr-grow-shadow  " >
 	           	
 	           
-	   	      		  	<img src="download.jpg" class="animated zoomIn" style="width:200px; height: 200px; padding:10px;"></img>
+	   	      		  	<img src="tech.jpg" class=" img-rounded animated zoomIn" style="width:200px; height: 200px; padding:10px;"></img>
 	   	      		  	  </div>
 	   	      		  	  </div>
-		<div class=" col-sm-4 col-mid-4 col-lg-4  " align= "center" >
-		  	<img src="download.jpg"></img>
-		   </div>
 
-		<div class="col-sm-4 col-mid-4 col-lg-4"  align="center">
-					  	<img src="download.jpg" class="hvr-border-fade"></img>
-
-		</div>
+		   	   <div class="col-sm-4 col-mid-4 col-lg-4" align="center"  >
+	                 <div class="hvr-sweep-to-right hvr-grow-shadow  " >
+	           	
+	           
+	   	      		  	<img src="gallery.jpg" class=" img-rounded animated zoomIn  " style="width:200px; height: 200px; padding:10px;"></img>
+	   	      		  	  </div>
+	   	      		  	  </div>
 	   </div>
      </div>
 </div>
@@ -103,6 +132,33 @@
 	}
 
 </script>
-  
+<footer class="container-fluid">
+	<div class="row" >
+	 <div class="animated zoomIn">
+     		<div class="col-sm-4 col-lg-4 col-mid-4" >
+     			<p >Contact Me  :</p>
+     			<hr>   
+     			<p><span class="glyphicon glyphicon-envelope"></span> sharma1996priya@gmail</p> 
+     			<p ><span class="glyphicon glyphicon-phone-alt"></span>8806244875</p>          
+            </div>
+     		<div class="col-sm-4 col-lg-4 col-mid-4" >
+     			Connect to me Socially:
+     			<div>
+     			<hr>
+     			<img src="fb.jpg" class="img-circle" width="40px" height="40px" style="margin-right:  10px;">
+     				<img src="git.png" class="img-circle" width="40px" height="40px" style="margin-right: 10px;">
+     					<img src="linkned.png" class="img-circle" width="40px" height="40px" style="margin-right: 10px;">
+               </div>
+     		</div>
+     		<div class="col-sm-4 col-lg-4 col-mid-4" >
+     			Connect to me Socially:
+     			<hr>
+     			<p class="glyphicon glyphicon-home"> Near Satyanarayan Mandir, Kasar Oli,Kamptee</p>
+               </div>
+     		</div>
+     		
+     		</div>
+     		</div>
+     		</footer>
 </body>
-</html>>
+</html>
